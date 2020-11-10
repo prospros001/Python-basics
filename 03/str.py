@@ -4,7 +4,7 @@ s2 = "Hello World"
 print(s1, s2, type(s1), type(s2))
 
 # 여러줄 문자열 리터럴
-#s3 = 'Hello\nWorld'
+# s3 = 'Hello\nWorld'
 s3 = '''Hello
 World
 '''
@@ -59,8 +59,8 @@ print("S" in str1)
 print("S" not in str2)
 
 print('----------- 문자열 객체는 변경할수 없다(immutable) -------------')
-#str1[0] = 'f'
-#print(str1)
+# str1[0] = 'f'
+# print(str1)
 
 print('----------- 문자열 연산: 슬라이싱 -------------')
 
