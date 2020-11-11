@@ -18,9 +18,12 @@
 # 5원:1개
 # 1원:4개
 
-money = input('돈을 입력하세요:')
+money = input('금액: ')
+m = int(money)
+lst = [50000, 10000, 5000, 1000, 500, 100, 50, 10, 5, 1]
 
-
-
-
+for a in lst:
+    ge = m // a
+    m = m % a
+    print(f'{a}원 : ' + str(ge) + '개')
 
