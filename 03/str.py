@@ -102,11 +102,58 @@ print('---' + s.strip('<>') + '-----')
 print(s.replace('<>', ''))
 
 # 분리
-s = 'one:two:three'
+s = 'one:two:three:four'
 r = s.split(':')
 print(r, type(r))
+r = s.split(':', 2)
+print(r)
+r = s.rsplit(':', 2)
+print(r)
+
+line = '''1st line
+2nd line
+3rd line
+4th line
+'''
+print(line.split('\n'))
+
+r = line.splitlines()
+print(r)
+
+# 결합
+s = '  '.join(r)
+print(s)
+
+#판별
+print('1234'.isdigit())
+print('1234'.isalpha())
+print('abcd'.isalpha())
+print('1234'.isalpha())
+print('abcdrfg'.islower())
+print('ABCDEFG'.isupper())
 
 
 print('----------- 문자열 연산: 포맷팅 -------------')
+name = '둘리'
+age = 10
+
+# name: 둘리, age: 10
+f1 = "name: " + name + ', age: ' + str(age)
+print(f1)
+
+f2 = "name: " + format(name, 's') + ', age: ' + format(age, 'd')
+print(f2)
+
+f3 = "name: {}, age: {}"
+print(f3.format(name, age))
+
+f4 = "name: {1}, age: {0}"
+print(f4.format(age, name))
+
+f5 =f'name: {name}, age: {age}'    # 이것으로 사용해라
+print(f5)
+
+
+
 
 
