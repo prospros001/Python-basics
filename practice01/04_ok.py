@@ -11,10 +11,6 @@
 #         print(fir, scd, (fir * scd))
 
 
-# for k in range(2, 10):
-#     line = line + str("   # %d단 #   " %k)
-# print(line)
-
 for sec in range(1, 10):
     line = ''
     for fir in range(2, 10):
