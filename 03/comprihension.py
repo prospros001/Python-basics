@@ -39,5 +39,5 @@ results = {s for s in strings if len(s) <= 2}
 print(results)
 print('----------- dict comprehension -------------')
 strings = ['a', 'as', 'bat', 'car', 'dove', 'python']
-results = {s: for s in strings if len(s) <= 2}
+results = {s for s in strings if len(s) <= 2}
 print(results)
