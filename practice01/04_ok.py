@@ -6,8 +6,17 @@
 # for n in range(1, 10):
 #     print(1, '*', sec, '=', 1 * sec, '     ', 2, '*', sec, '=', 2 * sec, '     ', 3, '*', sec, '=', 3 * sec)
 
-for fir in range(2, 10):
-    for scd in range(1, 10):
-        if scd == 10:
+# for fir in range(2, 10):
+#     for scd in range(1, 10):
+#         print(fir, scd, (fir * scd))
 
-        print(fir, scd, (fir * scd))
+
+# for k in range(2, 10):
+#     line = line + str("   # %d단 #   " %k)
+# print(line)
+
+for sec in range(1, 10):
+    line = ''
+    for fir in range(2, 10):
+        line = line + str("%d * %d = %3d    " %(fir, sec, fir*sec))
+    print(line)
