@@ -21,4 +21,4 @@ m = {'오뎅': 300, '순대': 400, '만두': 500}
 try :
     print('가격: {0}'.format(m[menu]))
 except KeyError as e:
-    print('가격: 0 ')
+    print(' 없는 메뉴입니다.  ')
