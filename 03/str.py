@@ -102,6 +102,7 @@ print('---' + s.strip('<>') + '-----')
 print(s.replace('<>', ''))
 
 # 분리
+print('----------- 문자열 : 분리 -------------')
 s = 'one:two:three:four'
 r = s.split(':')
 print(r, type(r))
