@@ -4,9 +4,27 @@ import random
 
 mi = 1
 ma = 100
-
 r = random.randrange(ma) + mi
-print(r)
+print(r, type(r)) # 결정된 수 확인용 - 지워야됨
 
+print('''수를 결정하였습니다. 맞추어 보세요
+1~100''')
+num = 0
+while True:
+    num = num + 1
 
+    a1 = input(f'%d >> ' %num)
+    a = int(a1)
+
+    if a == r :
+        print('맞았습니다.')
+        re = input('다시 하시겠습니까?(y/n)>> ')
+    elif a > r :
+        print('더 낮게')
+    else:
+        print('더 높게')
+
+    if re == 'n' :
+        print('수고 하셨습니다.')
+        break
 
