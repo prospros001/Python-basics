@@ -8,6 +8,26 @@
 # After Sort.
 # 60 20 9 8 5 3 1
 
+# nums = [5, 9, 3, 8, 60, 20, 1]
+#
+# print('Before Sort.')
+# for num in nums:
+#     print(num, end=' ')
+# else:
+#     print()
+#
+# count = len(nums)
+# for i in range(count):
+#     for j in range(count-1):
+#         if nums[j] < nums[j+1]:
+#             nums[j], nums[j+1] = nums[j+1], nums[j]
+#
+# print("After Sort.")
+# for num in nums:
+#     print(num, end=' ')
+# else:
+#     print()
+
 sort = [ 5, 9, 3, 8, 60, 20, 1 ]
 a = sorted(sort)
 print(a)

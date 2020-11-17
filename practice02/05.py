@@ -5,6 +5,19 @@
 # 3
 # 18
 
+# def sum(*arg):
+#     result = 0
+#     for n in arg:
+#         result += n
+#
+#     return result
+#
+#
+# print(sum())
+# print(sum(1, 2))
+# print(sum(1, 2, 5, 7, 2, 3))
+
+
 def sum(*insu):
 
     for i in insu:

@@ -18,6 +18,21 @@
 # 5원:1개
 # 1원:4개
 
+# import sys
+#
+# money = input('금액을 입력하세요: ')
+# if money.isdigit() is False:
+#     print('금액을 입력하세요')
+#     sys.exit(0)
+#
+# money = int(money)
+# for won in [50000, 10000, 5000, 1000, 500, 100, 50, 10, 50, 1]:
+#     count = money // won
+#     money -= count*won
+#     print('{0}원: {1}개'.format(won, count))
+
+
+
 money = input('금액: ')
 m = int(money)
 lst = [50000, 10000, 5000, 1000, 500, 100, 50, 10, 5, 1]

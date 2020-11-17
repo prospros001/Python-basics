@@ -6,6 +6,22 @@
 # b. 입력 받은 숫자가 짝수인 경우에는, 0 부터 입력 값까지 짝수의 합을 출력합니다.
 #     - 예제 : 입력이 10 이면 30을 출력 ( 2 + 4 + 6 + 8 + 10 = 30 )
 
+# while True:
+#     number = input('숫자를 입력하세요:')
+#     if number.isdigit() is False:
+#         break
+#
+#     number = int(number)
+#
+#     s = 0
+#     for n in range(number+1):
+#         if number & 0x0001 ^ n & 0x0001 == 0:
+#             s += n
+#
+#     print('결과 값: {0}'.format(s))
+
+
+
 a = input('숫자를 입력하세요 : ')
 
 num = int(a)

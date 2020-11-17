@@ -6,6 +6,27 @@
 # [1.0, 1.1, 1.2000000000000002, 1.3000000000000003, 1.4000000000000004, 1.5000000000000004, 1.6000000000000005, 1.7000000000000006, 1.8000000000000007, 1.9000000000000008]
 # [1.0, 1.5, 2.0, 2.5]
 
+# def frange(val, base=0.0, step=0.1):
+#     results = []
+#
+#     if val < base:
+#         start = val
+#         stop = base
+#     else:
+#         start = base
+#         stop = val
+#
+#     while start < stop:
+#         results.append(start)
+#         start += step
+#
+#     return results
+#
+#
+# print(frange(2))
+# print(frange(1.0, 2.0))
+# print(frange(1.0, 3.0, 0.5))
+
 def frange(num, step=0.1, end=1):
     results = []
     for a in range(end):

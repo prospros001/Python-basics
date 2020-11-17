@@ -14,3 +14,35 @@
 #
 # Process finished with exit code 0
 
+# import random
+#
+# multiplys = {}
+#
+# # 1.답이 다른 구구단 9문제 출제하기
+# while len(multiplys) != 9:
+#     lv = random.randrange(9) + 1
+#     rv = random.randrange(9) + 1
+#     multiplys[lv*rv] = (lv, rv)
+#
+# # 2.제출 문제와 정답
+# correct_answer = random.choice(list(multiplys.keys()))
+# quest = multiplys[correct_answer]
+#
+# # 3.문제 출력
+# print('%d X %d = ?' % quest, end='\n\n')
+#
+# # 4.답들 출력
+# for i, k in enumerate(multiplys):
+#     print(k, end='\t')
+#     if (i+1) % 3 == 0:
+#         print()
+#
+# # 5.답 입력받기
+# while True:
+#     answer = input('\nanswer: ')
+#     if answer.isdigit():
+#         answer = int(answer)
+#         break
+#
+# # 6.결과출력
+# print('정답' if correct_answer == answer else '오답')

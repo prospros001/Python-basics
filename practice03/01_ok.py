@@ -16,6 +16,15 @@ objs = ['Hockey', 'Football']
 # You Love Hockey.
 # You Love Football.
 
+# for i in range(len(subjs)):
+#     for j in range(len(verbs)):
+#         for k in range(len(objs)):
+#             sentence = "%s %s %s." % (subjs[i], verbs[j], objs[k])
+#             print(sentence)
+
+
+
+
 for a in subs:
     for b in verbs:
         for c in objs:

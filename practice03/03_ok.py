@@ -20,6 +20,11 @@ arrears = [101, 203, 301, 404]
 # Newspaper delivery: 402
 # Newspaper delivery: 403
 
+# for stair in apart:
+#     for room in stair:
+#         if room not in arrears:
+#             print(f"Newspaper delivery: {room}")
+
 for a in apart:
     # print(a, type(a))
     for b in a:
