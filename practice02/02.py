@@ -11,16 +11,15 @@ s = """
 </html>"""
 
 indexbegin = 0
-indexend = 0
 while True:
     indexbegin = s.find('<', indexbegin)
     if indexbegin == -1:
         break
 
-    indexend = s.find('>', indexend)
-    if indexend == -1:
-        break
-
-s = s[indexbegin:indexend]
+    indexend = s.find('>')
+    if indexend != -1:
+        s = s[:indexbegin] + s[indexend+1:]
+    # else:
+    #     indexend += 1
 
 print(s)

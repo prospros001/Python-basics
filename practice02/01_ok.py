@@ -4,6 +4,7 @@
 s = '/usr/local/bin/python'
 
 
+
 a = s.split('/')
 a.remove('')
 print(a)

@@ -15,19 +15,19 @@ for v in count:
         count1.append(v)
 
 count1.sort(key=str)
-
-ans1 = []
+ans2 =[]
 
 for ans1 in count1:
+    ans2.append(ans1)
     print(ans1)
+# print(ans2)
 
 cnt = []
 
 for z in count:
     cnt.append(count.count(z))
-print(cnt)
 
-for w in ans1:
-    print(f'{w}:{cnt} 개')
+for ans
+print(f'%s : %s 개' % (ans2, cnt))
 
 

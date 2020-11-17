@@ -6,4 +6,18 @@
 # b. 입력 받은 숫자가 짝수인 경우에는, 0 부터 입력 값까지 짝수의 합을 출력합니다.
 #     - 예제 : 입력이 10 이면 30을 출력 ( 2 + 4 + 6 + 8 + 10 = 30 )
 
-n = input('숫자를 입력하세요 : ')
+a = input('숫자를 입력하세요 : ')
+
+num = int(a)
+hol1 = 0
+if num % 2 != 0 :
+    for hol in range(1, num+1 , 2):
+        hol1 += hol
+    print(hol1)
+
+else:
+    for hol in range(2, num+1, 2):
+        hol1 += hol
+    print(hol1)
+
+
